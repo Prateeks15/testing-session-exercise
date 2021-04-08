@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'testing';
+
+  product(num1:any, num2:any) {
+    return num1 * num2
+  }
+    
 }
